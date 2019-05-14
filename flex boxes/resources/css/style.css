@@ -1,0 +1,108 @@
+/* UNIVERSAL */
+
+html, body {
+  font-size: 16px;
+}
+
+a {
+  color: black;
+}
+
+/* NAV */
+
+header {
+  background-color: #1a1a1a;
+  height: 40px;
+}
+
+.navContainer {
+  width: 80%;
+  margin: 0 auto;
+  background-color: gray;
+  color: white;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 20px;
+  flex-grow: 1;
+}
+nav {
+  padding-right: 20px;
+}
+
+nav span{
+  padding: 10px;
+}
+
+/* GALLERY */
+
+.categories {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.categories ul li {
+  display: inline-block;
+}
+
+.gallery {
+  width: 1100px;
+  height: 1100px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+
+
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+    /* justify-content: space-around; */
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1 solid black;
+    margin: 10px;
+    background-color: lightblue;
+}
+
+.box:first-child {
+  background-color: lightgreen;
+  display: none;
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 480px) {
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait)  {
+
+
+}
+
+@media only screen and (min-resolution: 150dpi) {
+    /* CSS for high resolution screens */
+  /* .logo{
+  background-image: url("../img/spaceship@2x.png");
+  } */
+}
+
+@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)  {
+
+}
