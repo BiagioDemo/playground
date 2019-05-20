@@ -1,0 +1,45 @@
+.containerDesktop {
+  background-color: hsla(360, 50%, 80%, 1.0);
+  width: 735px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+    background-color: hsla(160, 50%, 80%, 1.0);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+
+
+.containerMobile {
+
+  display: none;
+
+}
+
+.containerMobile .box {
+    background-color: hsla(200, 50%, 80%, 1.0);
+}
+
+
+@media only screen and (max-width: 735px) {
+
+.containerDesktop {
+  display: none;
+}
+
+.containerMobile {
+  background-color: hsla(60, 50%, 80%, 1.0);
+  width: 435px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+}
